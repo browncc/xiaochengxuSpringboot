@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "name": "wx",
+      "type": "com.tencent.wxcloudrun.model.WXProperties",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wx.api-v3-key",
+      "type": "java.lang.String",
+      "description": "商户APIV3密钥",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.app-id",
+      "type": "java.lang.String",
+      "description": "appId ： 微信公众号或者小程序等的appid",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.app-secret",
+      "type": "java.lang.String",
+      "description": "appSecret ： 应用密钥",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.key-path",
+      "type": "java.lang.String",
+      "description": "mchKey ： 商户证书目录",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.mch-key",
+      "type": "java.lang.String",
+      "description": "mchKey ： 微信支付商户密钥",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.merchant-id",
+      "type": "java.lang.String",
+      "description": "mchId ： 微信支付商户号",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.merchant-serial-number",
+      "type": "java.lang.String",
+      "description": "商户证书序列号",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.private-key-path",
+      "type": "java.lang.String",
+      "description": "商户API私钥路径",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    },
+    {
+      "name": "wx.wechat-pay-certificate-path",
+      "type": "java.lang.String",
+      "description": "商户API密钥证书路径",
+      "sourceType": "com.tencent.wxcloudrun.model.WXProperties"
+    }
+  ],
+  "hints": []
+}
