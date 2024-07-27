@@ -84,8 +84,7 @@ public class CounterController {
 
 
 
- 
-  @PostMapping("/getOpenid")
+  @PostMapping(value = "/api/getOpenid")
   public String getOpenid(@RequestParam("code") String code){
        //这里是直接拼接的一个url
     String url = "https://api.weixin.qq.com/sns/jscode2session?appid=" 
